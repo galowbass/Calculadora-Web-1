@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORES COM HTML|CSS|JAVASCRIPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    <P id="screenresult"></P>
+
+    <div>
+        <button class ="buttonclean" onclick = "clean()">C</button>
+        <button class ="buttonnum" onclick = "back()">&Larr;</button>
+        <button class ="buttonnum" onclick = "insert('-')">&minus;</button>
+        <button class ="buttonnum" onclick = "insert('/')">&divide;</button>
+    </div>
+
+    <div>
+        <button class ="buttonnum" onclick = "insert('7')">7</button>
+        <button class ="buttonnum" onclick = "insert('8')">8</button>
+        <button class ="buttonnum" onclick = "insert('9')">9</button>
+        <button class ="buttonnum" onclick = "insert('*')">&times;</button>
+    </div>
+
+    <div>
+        <button class ="buttonnum" onclick = "insert('4')">4</button>
+        <button class ="buttonnum" onclick = "insert('5')">5</button>
+        <button class ="buttonnum" onclick = "insert('6')">6</button>
+        <button class ="buttonnum" onclick = "insert('+')">+</button>
+    </div>
+
+    <div>
+        <button class ="buttonnum" onclick = "insert('1')">1</button>
+        <button class ="buttonnum" onclick = "insert('2')">2</button>
+        <button class ="buttonnum" onclick = "insert('3')">3</button>
+        <button class ="buttonnum" onclick = "insert(',')">,</button></div>
+        <button class ="buttonnumzero" onclick = "insert('0')">0</button>
+        <button class ="buttonequal" onclick = "calcular()">&equals;</button>                        
+    </div>
+
+<script src="js/scrypt.js"> </script>
+</body>
+</html>

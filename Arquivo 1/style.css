@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(155, 155, 155);
+    padding: 20px 20px 20px 60px;
+    align-items: center;
+}
+
+#screenresult{
+    font-size: 20px;
+    color: rgb(55, 0, 255);
+    background-color: aliceblue;
+    border-radius: 10px 10px 10px 10px;
+    border: solid black;
+    height: 30px;
+    width: 200px;
+    text-align: right;
+}
+
+.buttonnum {
+    border-radius: 10px 10px 10px 10px;
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+}
+
+.buttonclean {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(255, 0, 242);
+    height: 50px;
+    width: 50px;
+}
+
+.buttonnumzero {
+    border-radius: 10px 10px 10px 10px;
+    background-color: aqua;
+    height: 50px;
+    width: 104px;
+}
+
+.buttonequal  {
+    border-radius: 10px 10px 10px 10px;
+    background-color: aquamarine;
+    height: 50px;
+    width: 104px;
+}
+
